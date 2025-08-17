@@ -13,5 +13,6 @@ __pycache__/
 # MacOs-specific
 .DS_Store
 
-# ignore dataset
+# extra files/folders
 data/
+checkpoints/

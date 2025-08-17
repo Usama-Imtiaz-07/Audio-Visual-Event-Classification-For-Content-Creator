@@ -1,20 +1,22 @@
 from models.audio_model import AudioFeatureExtractor
 from models.video_model import VideoFeatureExtractor
-import torch
-import librosa
 
-# initialize models
-audio_model = AudioFeatureExtractor()
-#video_model = VideoFeatureExtractor()
+def main():
+    # Initialize models
+    audio_model = AudioFeatureExtractor()
+    video_model = VideoFeatureExtractor()
 
-# ---- Audio Feature Extraction ----
+    # Load your dataset (audio + video pairs)
+    # dataset = ...
 
-# load audio
-audio_path = "./data/audio/03-01-01-01-01-01-01.wav"
-waveform, sr = librosa.load(audio_path, sr=16000)
+    # Loop through dataset
+    # for audio_path, video_path in dataset:
+    #     audio_features = audio_model.extract_features(audio_path)
+    #     video_features = video_model.extract_features(video_path)
+    #     fused_features = fuse(audio_features, video_features)
+    #     ... (downstream task)
+    
+    print("Pipeline ready. Run test.py for quick debugging of individual models.")
 
-audio_features = audio_model.extract_features(waveform, sr)
-print("Audio feature shape:", audio_features.shape)
-
-# ---- Video Feature Extraction ----
-
+if __name__ == "__main__":
+    main()
