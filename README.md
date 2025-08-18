@@ -3,6 +3,7 @@
 ## Overview
 
 This project explores **multimodal AI** for content creators, combining **audio** and **video** streams to automatically classify events and provide intelligent insights.  
+
 The goal is to demonstrate how **audio-visual understanding** can be integrated into tools like **RODE Connect** or creator workflows, helping streamline editing, improve accessibility, and enable smarter content recommendations.
 
 ---
