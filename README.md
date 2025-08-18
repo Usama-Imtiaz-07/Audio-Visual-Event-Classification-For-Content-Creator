@@ -55,7 +55,7 @@ This would allow product ecosystem (hardware + software) to deliver **next-gen c
 ---
 
 ## Repository Structure
-
+```
 ├── models/
 │ ├── audio_model.py # Audio feature extractor (Wav2Vec2)
 │ ├── video_model.py # Video feature extractor (ResNet18)
@@ -65,7 +65,7 @@ This would allow product ecosystem (hardware + software) to deliver **next-gen c
 ├── test.py # Debug/testing scripts
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## Next Steps
