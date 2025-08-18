@@ -1,4 +1,4 @@
-# Audio-Visual Event Classification for Content Creators 🎬🎙️
+# Audio-Visual Intelligence for Creator Tools 🎬🎙️
 
 ## Overview
 
